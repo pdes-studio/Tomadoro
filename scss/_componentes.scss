@@ -1,0 +1,61 @@
+.btn-primario{
+    display: block;
+    margin: 0 auto;
+    max-width: 140px;
+    padding: 16px 24px;
+    background: $roxo;
+    color: $branco;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    border-radius: 60px;
+    font-weight: $bold;
+}
+
+.btn-secundario{
+    display: block;
+    max-width: 140px;
+    margin: 0 auto;
+    padding: 16px 24px;
+    border: 3px solid $branco;
+    color: $branco;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    border-radius: 60px;
+    font-weight: $bold;
+}
+
+@media only screen and (min-width: 768px){
+    .btn-primario{
+        display: block;
+        max-width: 200px;
+        margin: 0;
+        padding: 28px 36px;
+        background: $roxo;
+        color: $branco;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 18px;
+        border-radius: 60px;
+        font-weight: $bold;
+    }
+    
+    .btn-secundario{
+        display: block;
+        max-width: 200px;
+        margin: 0;
+        padding: 28px 36px;
+        border: 3px solid $branco;
+        color: $branco;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 18px;
+        border-radius: 60px;
+        font-weight: $bold;
+    }
+}
